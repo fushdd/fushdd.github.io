@@ -1,0 +1,61 @@
+/* header style */
+header {
+    background-color: #558B6E;
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* main style */
+main {
+    padding: 0px 40px;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main img:not(:last-child) {
+    float: left;
+}
+
+main section {
+    background-color: #f2d399;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+main h2 {
+    margin-left: 30px;
+}
+
+/* footer style */
+footer {
+    text-align: center;
+    margin: 50px 0px 0px;
+    padding: 20px 0px 5px;
+    background-color: #558B6E;
+    border-top: 3px solid black;
+}
+
+footer p {
+    margin: 0px 0px 5px;
+}
+
+footer a, footer a:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: blue;
+}

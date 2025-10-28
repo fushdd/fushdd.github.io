@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Profile</title>
+        <meta name="author" content="Daniil">
+        <meta name="description" content="A personal profile page with a brief description of who I am and what I do.">
+        <meta name="keywords" content="Personal, Introduction, Hobbies, Interests, Profile">
+        <link rel="stylesheet" href="./css/style.css"> <!--link css file-->
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+        <style> /* styling in the <head> section */
+            @font-face {
+                font-family: h1-font;
+                src: url('./fonts/pwchalk/PWChalk.ttf');
+            }
+
+            html {
+                background-color: #564946;
+            }
+
+            body {
+                width: 800px;
+                background-color: #f5deb3;
+                margin: 0px auto;  /* locate body in the center of the page*/
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* font for all text (except for h1) */
+                border: 3px solid black;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+           <h1 style="font-family: h1-font;">WELCOME, MY NAME IS DANIIL!!</h1> <!--inline styling-->
+        </header>
+        
+        <main>
+
+            <img src="./images/photo_1.jpg" alt="photo of me №1">
+            <img src="./images/photo_2.jpg" alt="photo of me №2">
+            <img src="./images/photo_3.jpg" alt="photo of me №3">
+            
+            <h2>About Me</h2>
+
+            <section> <!--content inside of the <section> elements will have specific background color-->
+                <p>I am a 17-year-old student at Humber Polytechnic. I was born in a small city of Russia, Ufa, and moved to Moscow when I turned 11.</p>
+                <p>Since that moment I was very interested in Computer Science, took a couple of programming courses and really got into it. The only programming language I studied was Python (and I was pretty worried about that fact), but now I'm starting to think that all the languages are quite similar.</p>
+            </section>
+            
+            <h2>Interests</h2>
+            
+            <section> <!--content inside of the <section> elements will have specific background color-->
+                <h3>Video Games</h3>
+                <p>My main interest is video games.</p>
+                <p>My favorite ones that I've played lately are:</p>
+                <ul> <!--unordered list-->
+                    <li>Dota 2</li>
+                    <li>Elden Ring</li>
+                    <li>Dead by Daylight</li>
+                    <li>Haste</li>
+                </ul>
+                <p>I don't really like competitive games, but these are the only games that can be played with friends for a long time (and playing with friends is much more fun!)</p>
+
+                <h3>Music</h3>
+                <p>Listening to music might even take up more time than games. In 2024 I spent 71,513 minutes (~ 1200 hours) listening to music!</p>
+                <p>I listen to many different genres of music:</p>
+                <ul> <!--unordered list-->
+                    <li>Pop (Lady Gaga, The Weeknd, bbno$, JAWNY)</li>
+                    <li>K-Pop (TWICE, BLACKPINK, KATSEYE)</li>
+                    <li>Rap (Eminem, Logic, BlabberMouf)</li>
+                    <li>Rock (Limp Bizkit, Mindless Self Indulgence, Disturbed, I Prevail)</li>
+                </ul>
+            </section>
+            
+            <h2>Interesting Facts</h2>
+
+            <section> <!--content inside of the <section> elements will have specific background color-->
+                <ol> <!--ordered list-->
+                    <li>My birthday is on 11th of November, which is <b>11/11</b></li>
+                    <li>I tried 5 sports (hockey, swimming, dancing, martial arts, rowing), but none of them I really liked</li>
+                    <li>My favorite dish is <b>fried eggs</b></li>
+                    <li>My favorite color is <span style="color: green">green</span></li> <!--inline styling to make the word "green" have green color-->
+                    <li>If I could instantly learn one skill (not fictional), I would learn to draw</li>
+                </ol>
+            </section>
+            
+        </main>
+
+        <footer>
+            <p>My Contact Information:</p>
+            <p>Instagram - <a href="https://www.instagram.com/danya_ykwc" target="_blank">@danya_ykwc</a></p> <!--hyperlink to an external site-->
+        </footer>
+
+    </body>
+</html>
